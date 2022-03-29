@@ -73,14 +73,6 @@ header .container-fluid .row .col .hamburger{
 .jumbotron .jumbo-image .container .row .col h2{
   margin: 25px 0;
 }
-.jumbotron .jumbo-image .container .row .col a button{
-  background-color: #cd3d0f;
-  color: white;
-  border-radius: 20px;
-  padding: 7px 25px;
-  border-style: none;
-  margin-top: 25px ;
-}
 /*/ JUMBOTRON */
 
 
@@ -143,4 +135,22 @@ header .container-fluid .row .col .hamburger{
 .console .container .rl-row .play-station5 {
   border-bottom: 3px solid #006ecd ;
 }
+/*/ CONSOLE */
+
+
+/* AVVENTURA */
+.avventura{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.avventura .container .row .col img{
+  width: 80%;
+  height: 60%;
+}
+/*/ AVVENTURA */
 /*/ CONSOLE */
