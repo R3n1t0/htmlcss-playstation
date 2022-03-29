@@ -1,5 +1,46 @@
 /* HEADER */
-header .container-fluid img{
+header {
+  position: fixed;
+  width: 100%;
+  color: black;
+}
+header .top{
+  background-color: black;
+}
+
+header .container-fluid .sony-logo{
   width: 80px;
   height: 15px;
 }
+
+header .container-fluid .row .col ul li a{
+  color: black;
+  margin: 5px;
+}
+
+header .container-fluid .row .col ul li a i{
+  font-size: 10px;
+  color: gray;
+}
+
+header .container-fluid .row .col ul li a img{
+  width: 15px;
+  height: 15px;
+  padding-left: 0;
+}
+
+header .container-fluid .row .col ul li a button{
+  background-color: #363636;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 7px;
+  border-style: none;
+}
+
+header .container-fluid .row .col .hamburger{
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+
+/*/ HEADER */
