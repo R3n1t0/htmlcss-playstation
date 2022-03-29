@@ -35,7 +35,7 @@ header .container-fluid .row .col ul li a button{
   background-color: #363636;
   color: white;
   border-radius: 20px;
-  padding: 5px 15px;
+  padding: 7px 20px;
   border-style: none;
 }
 
@@ -77,10 +77,9 @@ header .container-fluid .row .col .hamburger{
   background-color: #cd3d0f;
   color: white;
   border-radius: 20px;
-  padding: 5px 15px;
+  padding: 7px 25px;
   border-style: none;
   margin-top: 25px ;
-
 }
 /*/ JUMBOTRON */
 
@@ -99,19 +98,49 @@ header .container-fluid .row .col .hamburger{
 
 .ecco .container .row .col .limits{
   color: #0675cf;
-  font-size: 15px;
+  
 }
 
 .ecco .container .row .col h3{
   margin-bottom: 0;
 }
 
-.ecco .container .row .col .posibility{
-  font-size: 20px;
+.container .row .col rl-p{
+  color: lightgray;
 }
 
+/*/  ECCO */
 
+/* CONSOLE */
+.console .container .row .rl-col{
+  padding-top: 110px;
+}
 
+.console .container .row .col img{
+  width: 100%;
+  height: 100%;
+}
 
+.console .container .row .col a button{
+  background-color: #2d64e6;
+  color: white;
+  border-radius: 20px;
+  padding: 7px 25px;
+  border-style: none;
+  margin-top: 25px ;
+}
 
-/*7  ECCO */
+.console .container .row .col p i{
+  font-size: 10px;
+}
+
+.console .container .rl-row .col img{
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+}
+
+.console .container .rl-row .play-station5 {
+  border-bottom: 3px solid #006ecd ;
+}
+/*/ CONSOLE */
