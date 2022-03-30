@@ -113,15 +113,6 @@ header .container-fluid .row .col .hamburger{
   height: 100%;
 }
 
-.console .container .row .col a button{
-  background-color: #2d64e6;
-  color: white;
-  border-radius: 20px;
-  padding: 7px 25px;
-  border-style: none;
-  margin-top: 25px ;
-}
-
 .console .container .rl-row .col img{
   width: 100%;
   height: 80%;
@@ -162,10 +153,36 @@ header .container-fluid .row .col .hamburger{
   border-radius: 20px;
   margin-bottom: 15;
 }
-
 /*/ NUOVE */
-/*/ CONSOLE */
-/*/ CONSOLE */
+
+
+/* ESPLORA */
+.esplora .container .row .col img{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15;
+}
+/*/ ESPLORA */
+
+
+/* PLUS */
+.plus{
+  background-color: #bebcbb;
+}
+
+.plus .container .row .col img{
+  width: 80%;
+}
+
+.plus .container .row .col a button{
+  background-color: #d9dadc;
+  color: #0675cf;
+  border-radius: 20px;
+  padding: 7px 25px;
+  border-style: none;
+  margin-top: 25px ;
+}
+/*/ PLUS */
 /*/ CONSOLE */
 /*/ CONSOLE */
 /*/ CONSOLE */
