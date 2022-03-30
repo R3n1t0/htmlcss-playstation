@@ -17,26 +17,41 @@ header .container-fluid .sony-logo{
 
 header .container-fluid .row .col ul li a{
   color: black;
+  font-weight: 700;
   margin: 5px;
 }
 
-header .container-fluid .row .col ul li a i{
+header .container-fluid .row .col ul li i{
   font-size: 10px;
   color: gray;
+  margin-right: 6px;
+}
+
+header .container-fluid .row .col ul li:hover a{
+  color: #006ecd;
+}
+
+header .container-fluid .row .col ul li:hover i{
+  color: #006ecd;
+}
+
+header .container-fluid .row .col ul li a .btn-black{
+  background-color: #363636;
+  color: white;
+  border-radius: 20px;
+  padding: 7px 20px;
+  outline: 3px solid #363636;
+  border-style: none;
+}
+
+header .container-fluid .row .col ul li a .btn-black:hover{
+  outline-offset: 2px;
 }
 
 header .container-fluid .row .col ul li a img{
   width: 15px;
   height: 15px;
   padding-left: 0;
-}
-
-header .container-fluid .row .col ul li a button{
-  background-color: #363636;
-  color: white;
-  border-radius: 20px;
-  padding: 7px 20px;
-  border-style: none;
 }
 
 header .container-fluid .row .col .hamburger{
@@ -85,8 +100,13 @@ header .container-fluid .row .col .hamburger{
   width: 100%;
   height: 100%;
   border-radius: 20px;
- 
+  transition: all 0.2s;
 }
+
+.ecco .container .row .col img:hover{
+  transform: translate(0, -10px);
+}
+
 
 .ecco .container .row .col .limits{
   color: #0675cf;
@@ -106,7 +126,7 @@ header .container-fluid .row .col .hamburger{
 
 /* CONSOLE */
 .console .container .row .rl-col{
-  padding-top: 110px;
+  padding-top: 100px;
 }
 
 .console .container .row .col img{
@@ -118,10 +138,22 @@ header .container-fluid .row .col .hamburger{
   width: 100%;
   height: 80%;
   padding: 15px;
+  opacity: .7;
 }
 
-.console .container .rl-row .play-station5 {
-  border-bottom: 3px solid #006ecd ;
+.console .container .rl-row .col:hover img{
+  opacity: 1;
+}
+
+.console .container .rl-row .col .underline{
+  width: 80%;
+  height: 0px;
+  outline: 1px solid #006ecd;
+  display: none;
+}
+
+.console .container .rl-row .col:hover .underline{
+  display: block;
 }
 /*/ CONSOLE */
 
@@ -182,6 +214,11 @@ header .container-fluid .row .col .hamburger{
   border-radius: 20px;
   padding: 7px 25px;
   border-style: none;
+  outline: 3px solid #d9dadc;
+}
+
+.plus .container .row .col a button:hover{
+  outline-offset: 2px;
 }
 /*/ PLUS */
 
@@ -209,11 +246,16 @@ header .container-fluid .row .col .hamburger{
 }
 
 .now .container .row .col button{
-  background-color: #d9dadc;
+  background-color: white;
   border-radius: 20px;
   padding: 7px 25px;
   border-style: none;
   margin: 25px 0;
+  outline: 3px solid white;
+}
+
+.now .container .row .col button:hover{
+  outline-offset: 2px;
 }
 /*/ NOW */
 
@@ -237,12 +279,12 @@ footer a{
   color: white;
 }
 
-footer .container .col img{
+footer .container img{
   width: 80px;
 
 }
 
-footer .container .col p .globe{
+footer .container p .globe{
   width: 20px;
   margin-right: 7px;
 }
