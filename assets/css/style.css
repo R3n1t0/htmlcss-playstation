@@ -122,10 +122,6 @@ header .container-fluid .row .col .hamburger{
   margin-top: 25px ;
 }
 
-.console .container .row .col p i{
-  font-size: 10px;
-}
-
 .console .container .rl-row .col img{
   width: 100%;
   height: 80%;
@@ -149,8 +145,27 @@ header .container-fluid .row .col .hamburger{
 }
 
 .avventura .container .row .col img{
-  width: 80%;
-  height: 60%;
+  width: 70%;
+  height: 50%;
 }
 /*/ AVVENTURA */
+
+
+/* NUOVE */
+.nuove{
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.nuove .container .row .col img{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15;
+}
+
+/*/ NUOVE */
+/*/ CONSOLE */
+/*/ CONSOLE */
+/*/ CONSOLE */
+/*/ CONSOLE */
 /*/ CONSOLE */
