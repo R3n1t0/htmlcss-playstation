@@ -237,12 +237,12 @@ footer a{
   color: white;
 }
 
-footer .container .row .col img{
+footer .container .col img{
   width: 80px;
 
 }
 
-footer .container .row .col p .globe{
+footer .container .col p .globe{
   width: 20px;
   margin-right: 7px;
 }
