@@ -180,9 +180,15 @@ header .container-fluid .row .col .hamburger{
   border-radius: 20px;
   padding: 7px 25px;
   border-style: none;
-  margin-top: 25px ;
+  margin: 15px 0;
 }
 /*/ PLUS */
-/*/ CONSOLE */
-/*/ CONSOLE */
+
+
+/* SCONTI */
+.sconti .container .row .col img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+/*/ SCONTI */
 /*/ CONSOLE */
