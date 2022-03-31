@@ -5,10 +5,10 @@
   padding: 7px 25px;
   border-style: none;
   margin-top: 25px ;
-  outline: 3px solid #cd3d0f;
 }
 
 .btn-orange:hover{
+  outline: 3px solid #cd3d0f;
   outline-offset: 2px;
 }
 
@@ -19,10 +19,11 @@
   padding: 7px 25px;
   border-style: none;
   margin-top: 25px ;
-  outline: 3px solid #2d64e6;
+  
 }
 
 .btn-blue:hover{
+  outline: 3px solid #2d64e6;
   outline-offset: 2px;
 }
 

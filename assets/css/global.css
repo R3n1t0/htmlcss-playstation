@@ -10,3 +10,7 @@ li{
 a{
   text-decoration: none;
 }
+
+p{
+  opacity: .7;
+}

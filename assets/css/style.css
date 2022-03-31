@@ -40,11 +40,12 @@ header .container-fluid .row .col ul li a .btn-black{
   color: white;
   border-radius: 20px;
   padding: 7px 20px;
-  outline: 3px solid #363636;
+  
   border-style: none;
 }
 
 header .container-fluid .row .col ul li a .btn-black:hover{
+  outline: 3px solid #363636;
   outline-offset: 2px;
 }
 
@@ -104,6 +105,7 @@ header .container-fluid .row .col .hamburger{
 }
 
 .ecco .container .row .col img:hover{
+  box-shadow: 0px 5px #d6d6d6;
   transform: translate(0, -10px);
 }
 
@@ -152,7 +154,7 @@ header .container-fluid .row .col .hamburger{
   display: none;
 }
 
-.console .container .rl-row .col:hover .underline{
+.console .container .rl-row .col:active .underline{
   display: block;
 }
 /*/ CONSOLE */
@@ -214,10 +216,10 @@ header .container-fluid .row .col .hamburger{
   border-radius: 20px;
   padding: 7px 25px;
   border-style: none;
-  outline: 3px solid #d9dadc;
 }
 
 .plus .container .row .col a button:hover{
+  outline: 3px solid #d9dadc;
   outline-offset: 2px;
 }
 /*/ PLUS */
@@ -251,10 +253,10 @@ header .container-fluid .row .col .hamburger{
   padding: 7px 25px;
   border-style: none;
   margin: 25px 0;
-  outline: 3px solid white;
 }
 
 .now .container .row .col button:hover{
+  outline: 3px solid white;
   outline-offset: 2px;
 }
 /*/ NOW */
