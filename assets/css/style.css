@@ -14,28 +14,7 @@ header .container-fluid .sony-logo{
   width: 80px;
   height: 15px;
 }
-
-header .container-fluid .row .col ul li a{
-  color: black;
-  font-weight: 700;
-  margin: 5px;
-}
-
-header .container-fluid .row .col ul li i{
-  font-size: 10px;
-  color: gray;
-  margin-right: 6px;
-}
-
-header .container-fluid .row .col ul li:hover a{
-  color: #006ecd;
-}
-
-header .container-fluid .row .col ul li:hover i{
-  color: #006ecd;
-}
-
-header .container-fluid .row .col ul li a .btn-black{
+.btn-black{
   background-color: #363636;
   color: white;
   border-radius: 20px;
@@ -44,20 +23,26 @@ header .container-fluid .row .col ul li a .btn-black{
   border-style: none;
 }
 
-header .container-fluid .row .col ul li a .btn-black:hover{
+.btn-black:hover{
   outline: 3px solid #363636;
   outline-offset: 2px;
 }
 
-header .container-fluid .row .col ul li a img{
-  width: 15px;
-  height: 15px;
-  padding-left: 0;
+ul li a img{
+  width: 45px;
+  height: 45px;
 }
 
-header .container-fluid .row .col .hamburger{
-  border-radius: 5px;
-  padding: 5px 10px;
+ul li a .chev{
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+ul li a .lens{
+  width: 25px;
+  height: 25px;
+
 }
 /*/ HEADER */
 
@@ -112,7 +97,6 @@ header .container-fluid .row .col .hamburger{
 
 .ecco .container .row .col .limits{
   color: #0675cf;
-  
 }
 
 .ecco .container .row .col h3{
